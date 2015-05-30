@@ -1,0 +1,137 @@
+/********************************************************
+ ************************* MENU *************************
+ *******************************************************/
+
+
+/********************************************************
+ ************************* LINK *************************
+ *******************************************************/
+
+button a {
+	style: none;
+	color: #FFFFFF;
+}
+
+button a:hover {
+	style: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/********************************************************
+ ************************* FORM *************************
+ *******************************************************/
+
+div.submit {
+	margin-left: 10px;
+}
+
+span.rigth {
+	text-align: right;
+}
+
+.actions.actions-right {
+	/*width: 110px;*/
+}
+
+.form-control.form-search {
+	background-image : url('../img/search-icon.png');
+	background-position : left;
+	background-repeat : no-repeat;
+	margin-right : 5px;
+	padding-left : 35px;
+	width : 149px;
+}
+
+.btn-hidden {
+	display : none;
+}
+
+/********************************************************
+ ************************ TABLES ************************
+ *******************************************************/
+
+th.actions-right {
+	text-align: right;
+}
+
+td.actions-right {
+	text-align: right;
+}
+
+th.actions {
+	width: 150px;
+}
+
+th a:hover {
+	text-decoration : none;
+}
+
+th a.asc:after {
+	content: ' \2191';
+}
+th a.desc:after {
+	content: ' \2193';
+}
+
+/*th a.asc:after {
+	content: ' ⇣';
+}
+th a.desc:after {
+	content: ' ⇡';
+}*/
+
+
+/********************************************************
+ ************************* LIST *************************
+ *******************************************************/
+
+.head-list {
+	display: inline; !important
+	/*float : left;*/
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.head-list li {
+	display: inline-block;
+  	vertical-align: middle;
+	/*float : left;*/
+}
+
+.head-list li h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+/********************************************************
+ ********************** SCORE LIST **********************
+ *******************************************************/
+
+button.score_list {
+	background: none;
+	border: none;
+	color: #428bca;
+	
+}
+
+button.score_list:hover, button.score_list:focus {
+	color: #2a6496;
+	/*text-decoration: underline;*/
+}
+
+
+/********************************************************
+ *********************** PAGINATE ***********************
+ *******************************************************/
+
+.pagination {
+	display : block; !important
+	clear : both; !important
+}
+
+#goForm input{
+	float : right;
+}

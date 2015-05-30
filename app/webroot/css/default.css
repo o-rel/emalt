@@ -1,0 +1,194 @@
+body {
+	background-color: #3a5795;
+}
+
+#header {
+	z-index: 1;
+}
+
+#logbar-container {
+	background-color: #363636;
+	height: 30px;
+}
+
+#banner-container {
+	background-color: #C0C0C0;
+	height: 150px;
+}
+
+#menu-container {
+	background-color: #3a5795;
+	height: 42px;
+	border-top: 1px solid #133783;
+	border-bottom: 1px solid #133783;
+}
+
+#container {
+	padding: 0px;
+	background-color: #e9eaed;
+	z-index: 2;
+}
+
+#content-wrapper {
+	padding: 10px 5px;
+}
+
+#content {
+	min-height: 400px;
+}
+
+#menu {
+	position: absolute;
+	top: 0px;
+	padding: 0px;
+	z-index: 3;
+}
+
+.navbar {
+	min-height: 40px !important;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #3a5795;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #133783;
+}
+
+.nav {
+	padding: 0px;
+	margin: 0px
+	text-align: center;
+}
+
+.navbar .container-fluid {
+	padding: 0px;
+}
+
+.collapse {
+	padding: 0px;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+}
+
+.nav li a {
+	height: 40px !important;
+	background-color: transparent;
+	padding-top: 11px !important;
+	color: #BCC3CC !important;
+	display: inline-block;
+	padding: 0px 45px;
+	font-weight: bold; 
+}
+
+.nav li:hover a {
+	color: #909499 !important;
+}
+
+.nav li .glyphicon {
+	color: #BCC3CC !important;
+	display: inline-block;
+	padding: 13px 45px;
+	cursor:  pointer;
+}
+
+.nav li:hover .glyphicon {
+	color: #909499 !important;
+}
+
+header {
+	margin-bottom: 15px;
+}
+
+header .pagination {
+	margin: 0px;
+	float: right;
+}
+
+article {
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+
+article:last-child {
+	margin-bottom: 0px;
+}
+
+article header {
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+}
+
+article aside {
+	font-size: 0.8em;
+	margin-bottom: 10px;
+}
+
+article h1 {
+	margin: 0px;
+	color: #BCC3CC;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+article p {
+	margin: 0px;
+}
+
+#list_scores {
+	margin-bottom: 10px;
+}
+
+/********************************************************
+ ********************** SCORE LIST **********************
+ *******************************************************/
+
+button.score_list {
+	background: none;
+	border: none;
+	color: #428bca;
+	
+}
+
+button.score_list:hover, button.score_list:focus {
+	color: #2a6496;
+	/*text-decoration: underline;*/
+}
+
+/********************************************************
+ ************************* FORM *************************
+ *******************************************************/
+
+div.submit {
+	margin-left: 15px;
+}
+
+span.rigth {
+	text-align: right;
+}
+
+.actions.actions-right {
+	/*width: 110px;*/
+}
+
+.form-control.form-search {
+	background-image : url('../img/search-icon.png');
+	background-position : left;
+	background-repeat : no-repeat;
+	margin-right : 5px;
+	padding-left : 35px;
+	width : 149px;
+}
+
+.btn-hidden {
+	display : none;
+}
+
+.loginform {
+	margin-bottom: 10px;
+}

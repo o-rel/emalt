@@ -1,0 +1,57 @@
+#banner-container {
+	background-color: #FFFFFF;
+}
+
+fieldset {
+	width: 100%;
+}
+
+div.col-sm-5.required {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.col-sm-5.required div {
+	margin: 0px;
+	padding: 0px;
+}
+
+#content-wrapper {
+	/*background-color: #FFFFFF;
+	background-image: url(../img/banner.jpg);
+	min-height: 500px;*/
+}
+
+.forgot {
+	margin-right: 15px;
+}
+
+.loginform {
+	margin-bottom: 10px;
+}
+
+.img {
+	padding: 0px;
+}
+
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	background:url(pop-back.jpg) no-repeat;
+	width:400px;
+	height:400px;
+	border:5px solid #000;
+	z-index: 9002;
+}
+
+#popUpDiv { a position:relative; top:20px; left:20px}

@@ -1,0 +1,7 @@
+app/webroot/files/**
+app/tmp/**
+lib/**
+app/Config/**
+app/Console/**
+app/Lib/**
+app/Test/**

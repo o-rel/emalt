@@ -1,0 +1,106 @@
+.panel-footer {
+	background-color: #3a5795;
+	border-top: 1px solid #133783;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.footer-wrapper {
+	max-width: 1600px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.footer-right {
+	 float: right;
+}
+
+.footer-box {
+	clear: both;
+	overflow: hidden;
+	margin-right: auto;
+}
+
+.footer-box:first-child{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #BCC3CC;
+}
+
+.footer-box:last-child{
+	border-bottom: 0px;
+}
+
+.footer-box article {
+	/*width: 250px;*/
+	margin-top: 10px;
+	margin-right: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #3a5795;
+	color: #BCC3CC;
+	border: none;
+}
+
+.footer-box article header {
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+/*.footer-box article:nth-last-child(2) {
+}*/
+
+.footer-box article:last-child {
+	margin-right: 0px;
+	padding-right: 0px;
+	float: right;
+	text-align: right;
+}
+
+.footer-box:last-child article {
+	margin-bottom: 0px;
+}
+
+.footer-box article header {
+	border-bottom: 1px solid #BCC3CC;
+}
+
+.footer-box article p {
+	margin-bottom: 0px;
+}
+
+.footer-box article p .glyphicon {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.footer-box a {
+	color: #BCC3CC;
+}
+
+.footer-box a:hover {
+	color: #909499;
+	text-decoration: none;
+}
+
+.footer-box a#gotop:hover span {
+	color: #909499;
+}
+
+.footer-box .glyphicon {
+	color: #BCC3CC;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.footer-box a .glyphicon:hover {
+	color: #909499;
+}
+
+.footer-box .glyphicon.glyphicon-home {
+	padding: 0px;
+}
+
+.footer-box .glyphicon.glyphicon-chevron-up {
+	padding-right: 0px;
+}
